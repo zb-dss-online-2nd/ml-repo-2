@@ -18,7 +18,7 @@
 
 * 야구는 기록의 스포츠라는 별명이 붙을 정도로 많은 개인별/팀별 데이터를 보유하고 있음.<br>
 야구의 제반 데이터 분석은 다양한 분야에서 폭넓은 관심을 끌고 있음.<br>
-KBO 우승자 예측은 이러한 각계의 요구를 충족시키는 현실적인 방안으로 평가될 것.
+KBO 우승자 예측은 이러한 각계의 요구를 충족시키는 현실적인 방안으로 평가될 것.<br>
 https://dbr.donga.com/article/view/1203/article_no/9397/ac/magazine
 
 * 야구에서 발생하는 경제효과는 2조원에 이르는 규모<br>
@@ -34,10 +34,10 @@ https://magazine.hankyung.com/business/article/202204133226b
 
 ## 선행자료 조사
 
-딥러닝 기법을 활용하여 모델을 구축한 선행연구 소개. 이번 프로젝트는 머신러닝을 활용 
-  * 노언석 최재현, "기계학습을 활용한 프로야구 승부예측에 관한 연구", 2017
-  * 김태훈 외 3인, "인공지능 모델에 따른 한국 프로야구의 승패 예측 분석에 관한 연구", 2020
-  * 김원종 외 2인, "데이터 마이닝을 활용한 한국 프로야구 구단의 승패예측과 승률향상을 위한 전략 도출 연구", 2018
+딥러닝 기법을 활용하여 모델을 구축한 선행연구 소개. 이번 프로젝트는 머신러닝을 활용
+   * 노언석 최재현, "기계학습을 활용한 프로야구 승부예측에 관한 연구", 2017<br>
+   * 김태훈 외 3인, "인공지능 모델에 따른 한국 프로야구의 승패 예측 분석에 관한 연구", 2020<br>
+   * 김원종 외 2인, "데이터 마이닝을 활용한 한국 프로야구 구단의 승패예측과 승률향상을 위한 전략 도출 연구", 2018
 
 <br></br>
 
@@ -95,4 +95,3 @@ KBO 공식 사이트의 기록실 (https://www.koreabaseball.com/Record/Player/H
 한국 프로야구 전문 사이트 STATIZ의 자료 (http://www.statiz.co.kr/community_list.php)<br>
 한국 프로야구 전문 사이트 kbreport의 자료 (http://www.kbreport.com/teams/pitcher/main?rows=20&order=TPCT&orderType=DESC&teamId=1&pitcher_type=&year_from=2021&year_to=2021&split01=opposite&split02_1=2&split02_2=)<br>
 Betman (https://www.betman.co.kr/main/mainPage/gamebuy/closedGameSlip.do?gmId=G024&gmTs=1281)
-  
