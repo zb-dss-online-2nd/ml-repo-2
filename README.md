@@ -2,14 +2,16 @@
 # 2조/ 팀원
  이종승 이주연 김바램
 
+<br></br>
 
 ## 주제 및 목표
 ### 1. 주제
   * 머신러닝을 이용한 2022년 KBO(Korea Baseball Organization) 리그 우승팀 예측
-
 ### 2. 목표 
   - 2022년 KBO 포스트 시즌 진출 5개 팀 예측
   - 2022년 KBO 최종 우승팀 예측
+
+<br></br>
 
 
 ## 기획의도 및 배경
@@ -28,6 +30,7 @@ https://magazine.hankyung.com/business/article/202204133226b
 * 한편 기존의 연구는 개별 경기의 승자를 예측하는 데에 그치고 있음.<br>
 우리 프로젝트는 한 단계 나아가 최종적인 시즌 우승 팀을 예측하고자 함.
 
+<br></br>
 
 ## 선행자료 조사
 
@@ -36,18 +39,21 @@ https://magazine.hankyung.com/business/article/202204133226b
   * 김태훈 외 3인, "인공지능 모델에 따른 한국 프로야구의 승패 예측 분석에 관한 연구", 2020
   * 김원종 외 2인, "데이터 마이닝을 활용한 한국 프로야구 구단의 승패예측과 승률향상을 위한 전략 도출 연구", 2018
 
+<br></br>
 
 ## 모델
  * 앙상블 배깅 & 부스팅
  * 의사결정나무 
  * 베이즈넷
  
- 
+<br></br>
+
 ## 데이터 수집 방법 
 * KBO 공식 사이트의 기록실 (https://www.koreabaseball.com/Record/Player/HitterBasic/Basic1.aspx)
 * 한국 프로야구 전문 사이트 STATIZ의 자료 (http://www.statiz.co.kr/community_list.php) <br>
    이상을 활용한 csv 파일 생성
-   
+
+<br></br>
    
 ## 변수 처리 및 선정
 
@@ -65,6 +71,7 @@ https://magazine.hankyung.com/business/article/202204133226b
 * 각 변수는 직전 연도 시즌 종료를 기준으로 함
 * 기타 변수가 제반 사정에 따라서 추가될 수 있음
 
+<br></br>
 
 ## 세부 진행 방안
 
@@ -75,6 +82,8 @@ https://magazine.hankyung.com/business/article/202204133226b
  5. 승률 기준 5개 팀 나열 -> 포스트 시즌 진출 팀으로 추정
  6. 최종 우승 후보 선정
  7. 보고서 작성
+
+<br></br>
 
 ## 참고자료
 
