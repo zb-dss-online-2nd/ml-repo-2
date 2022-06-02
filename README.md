@@ -44,27 +44,26 @@ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArti
    이상을 활용한 csv 파일 생성
 
 ## 변수 처리
+
 * 무승부 - 제외 처리( 총 데이터 중 유의미하게 큰 비율을 차지하지 않음, 기존 연구 역시 제외처리하고 있음)
 
 * 변수 선정
 
- * 팀 단위 - 승률, 상대승률
+ * 팀 단위 - 승률, 상대승률, 기대승률, 상대팀에 대한 평균자책점
   * 상대승률 // 승률의 경우에는 팀 순위와 직접적으로 연관이 있기 때문에 팀 변수중에 가장 중요한 요인으로 보고 선정.
  * 개인별 단위
-  * 타자 - 타율, 출루율 
+  * 타자 - 타율, 출루율, 장타율
    타율의 경우에는 득점과 직결되는 변수이므로 가장 중요하다고 볼 수 있음
    출루율의 경우에도 베이스에서 많이 살아남는다는 증거가 되기 때문에 중요한 요인으로 선정 가능
-  * 투수 - 선발승률, 평균자책점
+  * 투수 - 선발승률, 평균자책점, 볼넷/이닝
   선발 투수는 팀에서 가장 우수한 인력이기 때문에 실점을 최대한 하지 않기 위해서 뽑아내는 주요요인으로 선정
   평균 자책점(방어율)은 투수로서의 능력을 직접적으로 보여주는 지표(실점과도 연관)로 이해할 수 있음
   
   팀단위
-  평균연봉 50.954 48.223 -2.855 0.004 유의
 상대승률 0.506 0.451 -2.912 0.004 유의
 상대팀에 대한 평균자책점 3.803 4.068 2.406 0.016 유의
 
 * 각 변수는 직전 연도 시즌 종료를 기준으로 함
-
 
 타자
 
@@ -72,31 +71,35 @@ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArti
 
 장타율 3.362 3.316 -2.171 0.030 유의
 
-
-투수
 투수
 선발승률 0.278 0.244 -2.299 0.022 유의
-
 
 볼넷/이닝 0.452 0.486 2.151 0.032 유의
 
 
+## 세부 진행 방안
+
+ 1. 데이터 수집 및 가공 (2017년~2022년 활용)
+ 2. 트레이닝 데이터 및 테스트 데이터 분할 
+ 3. 앙상블 배깅& 부스팅, 의사결정나무, 베이즈넷 각 모델을 활용하여 각각의 모델 트레이닝
+ 4. 테스트 데이터를 활용하여 모델 성능 평가 
+ 5. 승률 기준 5개 팀 나열 -> 포스트 시즌 진출 팀으로 추정
+ 6. 최종 우승 후보 선정
+
 
 ## 참고자료
-
 
 노언석 최재현, "기계학습을 활용한 프로야구 승부예측에 관한 연구", 2017
 김태훈 외 3인, "인공지능 모델에 따른 한국 프로야구의 승패 예측 분석에 관한 연구", 2020
 김원종 외 2인, "데이터 마이닝을 활용한 한국 프로야구 구단의 승패예측과 승률향상을 위한 전략 도출 연구", 2018
 
- KBO 공식 사이트의 기록실 (https://www.koreabaseball.com/Record/Player/HitterBasic/Basic1.aspx)
+KBO 공식 사이트의 기록실 (https://www.koreabaseball.com/Record/Player/HitterBasic/Basic1.aspx)
  
- 한국 프로야구 전문 사이트 STATIZ의 자료 (http://www.statiz.co.kr/community_list.php)
- 
+한국 프로야구 전문 사이트 STATIZ의 자료 (http://www.statiz.co.kr/community_list.php)
+한국 프로야구 전문 사이트 kbreport의 자료 http://www.kbreport.com/teams/pitcher/main?rows=20&order=TPCT&orderType=DESC&teamId=1&pitcher_type=&year_from=2021&year_to=2021&split01=opposite&split02_1=2&split02_2=
 1. https://www.gallup.co.kr/gallupdb/reportContent.asp?seqNo=1283#A
 2. https://www.koreabaseball.com/Reference/Ebook/EbookPublication.aspx
 3. https://namu.wiki/w/%EB%B6%84%EB%A5%98:KBO%20%EB%A6%AC%EA%B7%B8/%EC%8B%9C%EC%A6%8C
 4. https://namu.wiki/w/KBO%20%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88
 
 https://www.betman.co.kr/main/mainPage/gamebuy/closedGameSlip.do?gmId=G024&gmTs=1281
-
