@@ -64,6 +64,7 @@ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArti
   평균 자책점(방어율)은 투수로서의 능력을 직접적으로 보여주는 지표(실점과도 연관)로 이해할 수 있음
   
 * 각 변수는 직전 연도 시즌 종료를 기준으로 함
+* 기타 변수가 제반 사정에 따라서 추가될 수 있음
 
 ## 세부 진행 방안
 
@@ -74,7 +75,6 @@ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArti
  5. 승률 기준 5개 팀 나열 -> 포스트 시즌 진출 팀으로 추정
  6. 최종 우승 후보 선정
  7. 보고서 작성
-
 
 ## 참고자료
 
