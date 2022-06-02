@@ -46,7 +46,7 @@ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArti
 ## 변수 처리
 * 무승부 - 제외 처리( 총 데이터 중 유의미하게 큰 비율을 차지하지 않음, 기존 연구 역시 제외처리하고 있음)
 
-* 변수 성정
+* 변수 선정
 
  * 팀 단위 - 승률, 상대승률
   * 상대승률 // 승률의 경우에는 팀 순위와 직접적으로 연관이 있기 때문에 팀 변수중에 가장 중요한 요인으로 보고 선정.
@@ -62,6 +62,8 @@ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArti
   평균연봉 50.954 48.223 -2.855 0.004 유의
 상대승률 0.506 0.451 -2.912 0.004 유의
 상대팀에 대한 평균자책점 3.803 4.068 2.406 0.016 유의
+
+* 각 변수는 직전 연도 시즌 종료를 기준으로 함
 
 
 타자
