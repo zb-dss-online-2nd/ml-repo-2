@@ -6,6 +6,7 @@
 * 주제
   * 머신러닝을 이용한 2022년 KBO(Korea Baseball Organization) 리그 우승팀 예측
 
+
 * 목표 
   1. 2022년 KBO 포스트 시즌 진출 5개 팀 예측
   2. 2022년 KBO 최종 우승팀 예측
