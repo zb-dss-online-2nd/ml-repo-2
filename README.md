@@ -4,10 +4,8 @@
   * 머신러닝을 이용한 2022년 KBO(Korea Baseball Organization) 리그 우승팀 예측
 
 * 목표 
-  1. 2022년 KBO 정규리그 예상 우승팀은?
-  2. 2022년 KBO 최종 우승팀은?
-
-https://www.betman.co.kr/main/mainPage/gamebuy/closedGameSlip.do?gmId=G024&gmTs=1281
+  1. 2022년 KBO 포스트 시즌 진출 5개 팀 예측
+  2. 2022년 KBO 최종 우승팀 예측
 
 ## 기획의도 및 배경
 
@@ -27,6 +25,8 @@ https://magazine.hankyung.com/business/article/202204133226b
 이번 프로젝트는 머신러닝을 활용 
 
   * 노언석 최재현, "기계학습을 활용한 프로야구 승부예측에 관한 연구", 2017
+  * 김태훈 외 3인, "인공지능 모델에 따른 한국 프로야구의 승패 예측 분석에 관한 연구", 2020
+  * 김원종 외 2인, "데이터 마이닝을 활용한 한국 프로야구 구단의 승패예측과 승률향상을 위한 전략 도출 연구", 2018
 
 https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002357955
 
@@ -49,9 +49,17 @@ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArti
 
 
 노언석 최재현, "기계학습을 활용한 프로야구 승부예측에 관한 연구", 2017
-김태훈 외 3인, "인공지능 모델에 따른 한국 프로야구의 승패 예측 분석에 관한 연구", , 2020
+김태훈 외 3인, "인공지능 모델에 따른 한국 프로야구의 승패 예측 분석에 관한 연구", 2020
 김원종 외 2인, "데이터 마이닝을 활용한 한국 프로야구 구단의 승패예측과 승률향상을 위한 전략 도출 연구", 2018
 
  KBO 공식 사이트의 기록실 (https://www.koreabaseball.com/Record/Player/HitterBasic/Basic1.aspx)
  
  한국 프로야구 전문 사이트 STATIZ의 자료 (http://www.statiz.co.kr/community_list.php)
+ 
+1. https://www.gallup.co.kr/gallupdb/reportContent.asp?seqNo=1283#A
+2. https://www.koreabaseball.com/Reference/Ebook/EbookPublication.aspx
+3. https://namu.wiki/w/%EB%B6%84%EB%A5%98:KBO%20%EB%A6%AC%EA%B7%B8/%EC%8B%9C%EC%A6%8C
+4. https://namu.wiki/w/KBO%20%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88
+
+https://www.betman.co.kr/main/mainPage/gamebuy/closedGameSlip.do?gmId=G024&gmTs=1281
+
