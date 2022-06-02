@@ -91,3 +91,4 @@ KBO 공식 사이트의 기록실 (https://www.koreabaseball.com/Record/Player/H
 4. https://namu.wiki/w/KBO%20%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88
 
 https://www.betman.co.kr/main/mainPage/gamebuy/closedGameSlip.do?gmId=G024&gmTs=1281
+  
