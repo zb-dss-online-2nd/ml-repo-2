@@ -1,0 +1,28 @@
+==============================================================================
+Dep. Variable:                    pov   R-squared:                       0.506
+Model:                            OLS   Adj. R-squared:                  0.501
+Method:                 Least Squares   F-statistic:                     108.0
+Date:                Wed, 15 Jun 2022   Prob (F-statistic):           2.05e-78
+Time:                        14:24:21   Log-Likelihood:                 370.04
+No. Observations:                 534   AIC:                            -728.1
+Df Residuals:                     528   BIC:                            -702.4
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.1741      0.080      2.187      0.029       0.018       0.331
+obp            1.9421      0.362      5.368      0.000       1.231       2.653
+slg            1.3090      0.156      8.410      0.000       1.003       1.615
+ba            -1.4759      0.410     -3.603      0.000      -2.281      -0.671
+era           -0.0851      0.008    -10.769      0.000      -0.101      -0.070
+whip          -0.0590      0.047     -1.246      0.213      -0.152       0.034
+==============================================================================
+Omnibus:                       96.939   Durbin-Watson:                   1.914
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              989.572
+Skew:                          -0.429   Prob(JB):                    1.31e-215
+Kurtosis:                       9.614   Cond. No.                         494.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
