@@ -71,6 +71,9 @@
   좀 더 높이는 방향을 고민해서 해당 라벨로 결정
 
 ### (4) Corrleaion and heatmap
+![image](https://user-images.githubusercontent.com/104780664/174301233-aa542318-f80c-4351-b9d4-a0a0377ec663.png)
+![image](https://user-images.githubusercontent.com/104780664/174301246-d10536de-179d-4b90-988c-660f5e6e812c.png)
+
 
 
 * 컬럼간의 상관관계를 통해 서로 얼마나 연관도가 있는지 파악하기 위해서 해당 조건을 확인함
