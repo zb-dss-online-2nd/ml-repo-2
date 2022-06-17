@@ -10,9 +10,12 @@
 
 <br></br>
 ## 1. 프로젝트 목표
+![image](https://user-images.githubusercontent.com/104780664/174289560-e8ab6884-31c7-40a2-91b0-a8d89364cb72.png)
+
 
 <br></br>
 ## 2. 기획 의도 및 배경
+
 
 <br></br>
 ## 3. 변수 설정 및 데이터 수집
