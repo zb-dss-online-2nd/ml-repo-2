@@ -30,10 +30,6 @@
 우리 프로젝트는 한 단계 나아가 최종적인 시즌 우승 팀을 예측하고자 함.
 
 * 딥러닝 기법을 활용하여 모델을 구축한 선행연구 소개. 이번 프로젝트는 머신러닝을 활용
-* 참고 논문
-   - 노언석 최재현, "기계학습을 활용한 프로야구 승부예측에 관한 연구", 2017
-   - 김태훈 외 3인, "인공지능 모델에 따른 한국 프로야구의 승패 예측 분석에 관한 연구", 2020
-   - 김원종 외 2인, "데이터 마이닝을 활용한 한국 프로야구 구단의 승패예측과 승률향상을 위한 전략 도출 연구", 2018
 
 
 
@@ -103,3 +99,24 @@
 
 ----------
 ## 6. 결론 및 한계, 보완 방법
+
+
+
+
+<br></br>
+
+----------
+## 7. 참고 자료
+- KBO 공식 사이트의 기록실 (<a href="https://www.koreabaseball.com/Record/Player/HitterBasic/Basic1.aspx" target="_blank">Link</a>)
+- 한국 프로야구 전문 사이트 (<a href="http://www.statiz.co.kr/community_list.php" target="_blank">Link</a>)
+
+- 한국 프로야구 전문 사이트 kbreport의 자료 (<a href="http://www.kbreport.com/teams/pitcher/main?rows=20&order=TPCT&orderType=DESC&teamId=1&pitcher_type=&year_from=2021&year_to=2021&split01=opposite&split02_1=2&split02_2=" target="_blank">Link</a>)
+- Betman (<a href="https://www.betman.co.kr/main/mainPage/gamebuy/closedGameSlip.do?gmId=G024&gmTs=1281" target="_blank">Link</a>)
+- 장원석 책임연구원, '예전의 '명감독'은 잊어라, 데이터가 우승을 이끈다', DBR donga기술, 2019년 12월 286호 (<a href="https://dbr.donga.com/article/view/1203/article_no/9397/ac/magazine" target="_blank">Link</a>)
+- 김홍재 칼럼니스트, '야구는 숫자놀음? “승부를 지배하는 숫자들”'', 과학기술, 2021년 5월 25일자. (<a href="https://www.sciencetimes.co.kr/news/%EC%95%BC%EA%B5%AC%EB%8A%94-%EC%88%AB%EC%9E%90%EB%86%80%EC%9D%8C-%EC%8A%B9%EB%B6%80%EB%A5%BC-%EC%A7%80%EB%B0%B0%ED%95%98%EB%8A%94-%EC%88%AB%EC%9E%90%EB%93%A4/" target="_blank">Link</a>)
+
+- 노언석 최재현, "기계학습을 활용한 프로야구 승부예측에 관한 연구", 2017
+- 김태훈 외 3인, "인공지능 모델에 따른 한국 프로야구의 승패 예측 분석에 관한 연구", 2020
+- 김원종 외 2인, "데이터 마이닝을 활용한 한국 프로야구 구단의 승패예측과 승률향상을 위한 전략 도출 연구", 2018  
+
+
