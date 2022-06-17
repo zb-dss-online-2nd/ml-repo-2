@@ -2,8 +2,8 @@
 
 |파일종류|파일명|설명|
 |:------:|:--------------------------------------:|:--------------------------------------------------------:|
-|cvs|Raw_First_Value|분석에 사용한 Raw Data|
-|cvs|yearcumul_20220613|데이터 확인에 사용한 실제값(2022-06-13 기준)|
+|csv|Raw_First_Value|분석에 사용한 Raw Data|
+|csv|yearcumul_20220613|데이터 확인에 사용한 실제값(2022-06-13 기준)|
 |ipynb|KBO_Project_Model1| MODEL1에 대한 분석 코드|
 |ipynb|KBO_Project_Model1_AddTeam | MODEL1(+Team 항목)에 대한 분석 코드|
 |ipynb|KBO_Project_Model1_AddMonth | MODEL1(+Month 항목)에 대한 분석 코드|
