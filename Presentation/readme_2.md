@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/104780664/174287758-265973a4-a997-4e63-a52b-52e1c611c2db.png)
 
 
-:bookmark_tabs: # 목차
+# :bookmark_tabs: 목차
 1. [프로젝트 목표](#1.-프로젝트-목표)
 2. [기획 의도 및 배경](#2.-기획-의도-및-배경)
 3. [변수 설정 및 데이터 수집](#3.-변수-설정-및-데이터-수집)
