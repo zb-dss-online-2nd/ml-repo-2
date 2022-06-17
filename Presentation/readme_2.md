@@ -72,7 +72,7 @@
 
 * 컬럼간의 상관관계를 통해 서로 얼마나 연관도가 있는지 파악하기 위해서 해당 조건을 확인함
 * grade와 양의 상관관계를 가지는 항목은 pov(승률), obp(출루율), slg(장타율), ba(타율)로 나타남.
-
+<img width="244" alt="image" src="https://user-images.githubusercontent.com/104750108/174300559-cfa3fe6c-b5ac-492f-b0e4-c8731bf7e3e1.png">
 
 ### (5) Pairplot
 
