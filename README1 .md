@@ -41,8 +41,10 @@ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArti
 
 ## 변수 처리
 
+
+|항목명|ITEM|DataType|Comment|
+| :---: | :---: | :---: | :--- |
 | 구단 | team | int(1~10) |   |
-| --- | --- | --- | --- |
 | 년도 | year | int(2015~2022) |   |
 | 월 | month | int(3~10) |   |
 | 승률 | pov | float(0~1) | - 승수/(승수＋패수) |
