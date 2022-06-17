@@ -96,6 +96,8 @@
 ----------
 ## :chart_with_downwards_trend: 4. 모델 선정 및 분석 기법
 ### (1) 모델 선정 기준
+![image](https://user-images.githubusercontent.com/104780664/174300732-7c1ba5d0-1d35-4857-975d-e0a02b6f9f0d.png)
+
  * 승률을 기준으로 Grade라는 컬럼을 추가하여 승률에 따른 등급을 확인할 수 있게 지정
  * 변수간의 상관관계, 히트맵을 통해 얼마나 변수간에 영향을 미치는지 확인
  * 추가적으로 관계 그래프(Pairplot)를 통해 변수의 분포도 및 상관관계를 추가분석
