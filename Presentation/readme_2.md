@@ -114,30 +114,48 @@
  
  <p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174306126-6e03bbd8-b360-4c59-b3ec-aa84b4baff82.png"></p>
  
+* OLS 선형 회귀분석을 이용해서 1차적으로 분석을 해봤는데
+  RMSE가 0.11인 경우에는 모델로 사용하기에는 적합했으나
+  추가적으로 실제값과 예측값을 비교해봤을 때 유의미한 값의 변화를
+  찾지 못하여 회귀모델이 아닌 분류모델로 변경하여 진행했다.
+ 
 
 #### 2) Decision Tree
 ##### ① Test_size 및 best max_depth
 <p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174306840-3c45e830-1efc-42ef-8f04-6a622172d38d.png"></p>
 <p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174306985-1c7e7d1e-26fe-46df-a3ce-6240fb9ef3dc.png"></p>
 
+* Decision Tree의 Test Size는 0.2와 0.3을 비교하여 
+  0.3인 경우에 Train, Test Accuracy가 모두 높게 나와 0.3을 채택했고,
+  추가적으로 Best Max Depth를 찾기 위해 GridSearchCV를 사용하여 1~15까지의 과정을 실행한 결과
+  random_state가 13인 경우에 최적의 max_depth는 7, Test size는 0.3인 것을 확인 할 수 있었다.
 
 ##### ② Confusion Matrix
 <p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174310026-1e33fe59-592b-482e-a0cb-83c67543ab14.png"></p>
 
-
+* 우리가 조사한 데이터의 특징상 grade를 총 4개로 나누었고 각 등급의 비율이 편향되는 것을 확인할 수 없어서 
+  Confusion Matrix를 통한 accuracy, precision, recall, f1_score, auc를 알아보고 싶었다.
+  Confusion Maxtrix 분석기법은 average 옵션을 두개로 나누어 진행했다.(micro - '전체평균', macro - '라벨 별 각 합의 평균')
+  두 옵션을 비교해봤을 때 유의미한 수치의 차이는 발견되지 않았다.
 
 ##### ③ Classification Report
 <p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174307361-fc71e952-79ae-404d-a5df-d8c3030401a0.png"></p>
 
+* Decision Tree의 분류 리포트를 분석해봤을 때
+  Grade 비율이 얼마인지를 확인해보고
+  Test Data에 대한 비율을 확인해봤는데 거의 비슷한 비율인 것을 확인할 수 있었다.
 
 ##### ④ 실제 값으로 Test 한 예측 값 및 예측 비율 (2022년 6월 13일 기준 data)
 <p align="center"><img src="https://user-images.githubusercontent.com/104780664/174307408-c3a90018-2e52-4f84-85a6-947d97928f03.png"></p>
 
+* 실제 값으로 Test한 예측값 및 예측비율을 구해보니
+  롯데와 한화를 제외한 팀이 모두 포스트시즌에 진출할 가능성이 있는 팀이었으나
+  예측비율은 모델에 한계점이 있어 신뢰도 높은 예측비율을 나타내지는 못했다.
 
 #### 3) 그 외 (Logistic Regression / Random Forest / LightGBM)
 <p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174307555-2eb022c1-7e51-49ea-b7e0-ad3749650787.png"></p>
 
-
+* 그 외에 추가적으로 다른 Model을 돌린결과 RandomForest가 가장 모델로서 적합한 모델인 것을 확인할 수 있었다.
 
 <br></br>
 
