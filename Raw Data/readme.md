@@ -12,6 +12,8 @@
 <br></br>
 
 #### 2. ipynb
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+
 |No.|파일종류|파일명|설명|
 |:--:|:------:|:--------------------------------------:|:--------------------------------------------------------:|
 |1|ipynb|BaseballDataImport_0612|KBO 및 Statiz data import 코드(crawling)|
