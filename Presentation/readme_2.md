@@ -80,6 +80,7 @@
 * 특정 컬럼의 경우 (ex) team, year, month)의 경우에는 연관도가 다른 컬럼에 비해 상대적으로 적은편이다.
 
 ### (6) Boxplot
+<img width="794" alt="image" src="https://user-images.githubusercontent.com/104750108/174303873-d6c3315e-c214-4381-9554-94059a5341de.png">
 
 
 * era (평균자책점)의 경우 값의 범위가 다른 값에 비해 차이가 큰 것을 확인할 수 있음
