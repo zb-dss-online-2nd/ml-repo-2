@@ -8,7 +8,8 @@
 
 <br></br>
 
-#### 2. ipynb <img src="https://img.shields.io/badge/Python3-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+#### 2. ipynb
+<img src="https://img.shields.io/badge/Python3-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 |No.|파일종류|파일명|설명|
 |:---:|:------:|:--------------------------------------:|:--------------------------------------------------------:|
 |1|ipynb|KBO_Project_Model1| MODEL1에 대한 분석 코드|
