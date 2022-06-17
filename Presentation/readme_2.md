@@ -82,12 +82,11 @@
 ### (6) Boxplot
 <img width="794" alt="image" src="https://user-images.githubusercontent.com/104750108/174303873-d6c3315e-c214-4381-9554-94059a5341de.png">
 
-
 * era (평균자책점)의 경우 값의 범위가 다른 값에 비해 차이가 큰 것을 확인할 수 있음
 
 
 ### (7) 팀별 월 평균 승률 비교
-<img weight="60%" heigth="60%" alt="image" src="https://user-images.githubusercontent.com/104780664/174303395-6549c1a3-bfb3-4628-a963-d6a34f1d6f2a.png">
+<img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174304025-83b5a4a6-8064-4ae6-947a-a3da89fa91dc.png">
 
 * 각 팀의 승률은 월에 상관없이 박스권 내 month는 승률에 영향을 미치지 않는 것으로 보임
 
