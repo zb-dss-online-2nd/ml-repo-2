@@ -12,7 +12,7 @@
 <br></br>
 
 ----------
-## 1. 프로젝트 목표
+## :baseball: 1. 프로젝트 목표
 ![image](https://user-images.githubusercontent.com/104780664/174289560-e8ab6884-31c7-40a2-91b0-a8d89364cb72.png)
 
 
