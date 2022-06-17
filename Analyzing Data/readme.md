@@ -16,5 +16,5 @@
 |ipynb|KBO_Project_Model5|MODEL5에 대한 분석 코드|
 |ipynb|KBO_Project_Model6|MODEL6에 대한 분석 코드|
 |ipynb|KBO_Project_Month_POV|월별 승률 분포에 대한 분석 코드|
-|ipynb|KBO_Project_OLS_const1|Grade 항목 없이 OLS 분석(상수없음)|
-|ipynb|KBO_Project_OLS_const2|Grade 항목 없이 OLS 분석(상수있음)|
+|ipynb|KBO_Project_OLS1|Grade 항목 없이 OLS 분석(상수없음)|
+|ipynb|KBO_Project_OLS2|Grade 항목 없이 OLS 분석(상수있음)|
