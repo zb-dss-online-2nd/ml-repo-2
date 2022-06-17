@@ -62,31 +62,31 @@
 
 
 ### (3) Grade
-<center><img width="981" alt="image" src="https://user-images.githubusercontent.com/104750108/174301365-8c8eb009-9060-41d5-9412-6cf9c629abb0.png"></center>
+<p align="center"><img width="981" alt="image" src="https://user-images.githubusercontent.com/104750108/174301365-8c8eb009-9060-41d5-9412-6cf9c629abb0.png"></p>
 
 * 승률별로 등급을 나누어 높은 Grade를 부여받는 팀이 우승할 수 있는 확률이 높은팀으로 선정
 * 이전 데이터를 고려해봤을 때 반드시 승률이 높은팀이 우승팀이 되지 않았기 때문에 승률로 예측을 하는 것이 아닌 승률의 범위를 설정하여 우승팀의 예측 확률을
   좀 더 높이는 방향을 고민해서 해당 라벨로 결정
 
 ### (4) Corrleaion and heatmap
-<center><img alt="image" src="https://user-images.githubusercontent.com/104780664/174302978-ac76e701-37c7-487f-a671-3a54c93d2f61.png"></center>
+<p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174302978-ac76e701-37c7-487f-a671-3a54c93d2f61.png"></p>
 
 * 컬럼간의 상관관계를 통해 서로 얼마나 연관도가 있는지 파악하기 위해서 해당 조건을 확인함
 * grade와 양의 상관관계를 가지는 항목은 pov(승률), obp(출루율), slg(장타율), ba(타율)로 나타남.
 
 ### (5) Pairplot
-<center><img width="1130" alt="image" src="https://user-images.githubusercontent.com/104750108/174303303-c5d1ab8b-f096-432c-a646-d634325b628b.png"></center>
+<p align="center"><img width="1130" alt="image" src="https://user-images.githubusercontent.com/104750108/174303303-c5d1ab8b-f096-432c-a646-d634325b628b.png"></p>
 
 * 특정 컬럼의 경우 (ex) team, year, month)의 경우에는 연관도가 다른 컬럼에 비해 상대적으로 적은편이다.
 
 ### (6) Boxplot
-<center><img width="794" alt="image" src="https://user-images.githubusercontent.com/104750108/174303873-d6c3315e-c214-4381-9554-94059a5341de.png"></center>
+<p align="center"><img width="794" alt="image" src="https://user-images.githubusercontent.com/104750108/174303873-d6c3315e-c214-4381-9554-94059a5341de.png"></p>
 
 * era (평균자책점)의 경우 값의 범위가 다른 값에 비해 차이가 큰 것을 확인할 수 있음
 
 
 ### (7) 팀별 월 평균 승률 비교
-<center><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174304025-83b5a4a6-8064-4ae6-947a-a3da89fa91dc.png"></center>
+<p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174304025-83b5a4a6-8064-4ae6-947a-a3da89fa91dc.png"></p>
 
 * 각 팀의 승률은 월에 상관없이 박스권 내 month는 승률에 영향을 미치지 않는 것으로 보임
 
@@ -109,29 +109,33 @@
 
 
 ### (2) 사용한 분석기법
- 1) OLS Regression
+#### 1) OLS Regression
+ <p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174306084-ae600435-396c-4f96-945c-1d1fc93fc1fe.png"></p>
  
+ <p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174306126-6e03bbd8-b360-4c59-b3ec-aa84b4baff82.png"></p>
  
- 
- 
- 2) Decision Tree
- 
- 
- 
- 
- 
- 4) 그 외 (Logistic Regression / Random Forest / LightGBM)
+
+#### 2) Decision Tree
+##### ① Test_size 및 best max_depth
+<p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174306840-3c45e830-1efc-42ef-8f04-6a622172d38d.png"></p>
+<p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174306985-1c7e7d1e-26fe-46df-a3ce-6240fb9ef3dc.png"></p>
+
+
+##### ② Confusion Matrix
+<p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174310026-1e33fe59-592b-482e-a0cb-83c67543ab14.png"></p>
 
 
 
+##### ③ Classification Report
+<p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174307361-fc71e952-79ae-404d-a5df-d8c3030401a0.png"></p>
 
 
+##### ④ 실제 값으로 Test 한 예측 값 및 예측 비율 (2022년 6월 13일 기준 data)
+<p align="center"><img src="https://user-images.githubusercontent.com/104780664/174307408-c3a90018-2e52-4f84-85a6-947d97928f03.png"></p>
 
 
-
-
-
-
+#### 3) 그 외 (Logistic Regression / Random Forest / LightGBM)
+<p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174307555-2eb022c1-7e51-49ea-b7e0-ad3749650787.png"></p>
 
 
 
