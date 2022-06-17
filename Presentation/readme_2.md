@@ -73,7 +73,6 @@
 ### (4) Corrleaion and heatmap
 ![image](https://user-images.githubusercontent.com/104780664/174302978-ac76e701-37c7-487f-a671-3a54c93d2f61.png)
 
-<img width="45%" height="45%" alt="image" src="https://user-images.githubusercontent.com/104780664/174302122-c582c859-210a-475a-b64a-cad1d4c1b8f3.png"><img width="45%" height="45%" alt="image" src="https://user-images.githubusercontent.com/104780664/174301819-cac45831-dd74-4027-833f-a838b9944d12.png">
 
 * 컬럼간의 상관관계를 통해 서로 얼마나 연관도가 있는지 파악하기 위해서 해당 조건을 확인함
 * grade와 양의 상관관계를 가지는 항목은 pov(승률), obp(출루율), slg(장타율), ba(타율)로 나타남.
@@ -84,6 +83,9 @@
 * 특정 컬럼의 경우 (ex) team, year, month)의 경우에는 연관도가 다른 컬럼에 비해 상대적으로 적은편이다.
 
 ### (6) Boxplot
+
+<img width="1130" alt="image" src="https://user-images.githubusercontent.com/104750108/174303303-c5d1ab8b-f096-432c-a646-d634325b628b.png">
+
 
 
 * era (평균자책점)의 경우 값의 범위가 다른 값에 비해 차이가 큰 것을 확인할 수 있음
