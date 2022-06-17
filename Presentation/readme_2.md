@@ -71,10 +71,8 @@
   좀 더 높이는 방향을 고민해서 해당 라벨로 결정
 
 ### (4) Corrleaion and heatmap
-![image](https://user-images.githubusercontent.com/104780664/174301233-aa542318-f80c-4351-b9d4-a0a0377ec663.png) {: width="500%" height="50%"}
-![image](https://user-images.githubusercontent.com/104780664/174301246-d10536de-179d-4b90-988c-660f5e6e812c.png) {: width="50%" height="50%"}
-
-
+<img width="50%" height="50%" alt="image" src="https://user-images.githubusercontent.com/104780664/174302122-c582c859-210a-475a-b64a-cad1d4c1b8f3.png"> 
+<img width="50%" height="50%" alt="image" src="https://user-images.githubusercontent.com/104780664/174301819-cac45831-dd74-4027-833f-a838b9944d12.png">
 
 * 컬럼간의 상관관계를 통해 서로 얼마나 연관도가 있는지 파악하기 위해서 해당 조건을 확인함
 * grade와 양의 상관관계를 가지는 항목은 pov(승률), obp(출루율), slg(장타율), ba(타율)로 나타남.
