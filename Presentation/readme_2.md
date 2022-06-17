@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/104780664/174286766-ec993bdb-8804-4865-94f9-8e4cc9ce8e3d.png)
+
 ||항목명|ITEM|Data Type|Comment|
 |:----|:---------------|:---|:--------|:-------------------------------------------------------|
 ||구단|team|int(1~10)||
