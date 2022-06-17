@@ -48,11 +48,11 @@ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArti
 | 년도 | year | int(2015~2022) |   |
 | 월 | month | int(3~10) |   |
 | 승률 | pov | float(0~1) | - 승수/(승수＋패수) |
-|   | 출루율on-base percentage | obp | float(0~1) |
-| 장타율Slugging Percentage | slg | float(0~1) | - '총 누타수/타수.' - 좀 더 정확하게는 '(단타 수[1] + 2루타 수*2 + 3루타 수*3 + 홈런 수*4)/타수.' |
-| 타율Batting Average | ba | float | - 안타/타수- 득점과 직결되는 변수이므로 가장 중요한 요인이기에 선정 |
-|   | 평균자책점ERA | era | float |
-| WHIP | whip | float | - (피안타 + 볼넷) / 이닝 ( 고의사구는 포함시키며 몸에 맞는 볼은 포함하지 않음)- 투수의 안정감을 측정하는 지표 (낮을 수록 좋음)- 볼넷 : 타자가 타석에서 4개의 볼 카운트를 얻어내 1루로 나가는 것  이닝 : 야구 또는 소프트볼에서 양팀이 한 번씩의 공격을 주고 받는 단위. |
+| 타자-출루율on-base percentage | obp | float(0~1) |
+| 타자-장타율Slugging Percentage | slg | float(0~1) | - '총 누타수/타수.' - 좀 더 정확하게는 '(단타 수[1] + 2루타 수*2 + 3루타 수*3 + 홈런 수*4)/타수.' |
+|타자- 타율Batting Average | ba | float | - 안타/타수- 득점과 직결되는 변수이므로 가장 중요한 요인이기에 선정 |
+|투수-평균자책점ERA | era | float |
+| 투수-WHIP | whip | float | - (피안타 + 볼넷) / 이닝 ( 고의사구는 포함시키며 몸에 맞는 볼은 포함하지 않음)- 투수의 안정감을 측정하는 지표 (낮을 수록 좋음)- 볼넷 : 타자가 타석에서 4개의 볼 카운트를 얻어내 1루로 나가는 것   닝 : 야구 또는 소프트볼에서 양팀이 한 번씩의 공격을 주고 받는 단위. |
 | WHIP | whip | float |  |
 |  |  |  |  |
 |  |  |  |  |
