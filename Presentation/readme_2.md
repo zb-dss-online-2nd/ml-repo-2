@@ -63,7 +63,7 @@
 
 ### (3) Grade
 
-<img width="985" alt="image" src="https://user-images.githubusercontent.com/104750108/174301077-938eeb13-1af2-4115-afaf-f3b00ea3ed07.png">
+<img width="981" alt="image" src="https://user-images.githubusercontent.com/104750108/174301365-8c8eb009-9060-41d5-9412-6cf9c629abb0.png">
 
 
 * 승률별로 등급을 나누어 높은 Grade를 부여받는 팀이 우승할 수 있는 확률이 높은팀으로 선정
