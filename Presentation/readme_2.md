@@ -105,7 +105,7 @@
 
 
 
-### (2) 사용할 분석기법
+### (2) 사용한 분석기법
  * OLS Regression
  * Decision Tree
  * Logistic Regression
