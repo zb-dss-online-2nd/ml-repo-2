@@ -12,14 +12,14 @@
 <br></br>
 
 ----------
-## :baseball: 1. 프로젝트 목표
+## :question: 1. 프로젝트 목표
 ![image](https://user-images.githubusercontent.com/104780664/174289560-e8ab6884-31c7-40a2-91b0-a8d89364cb72.png)
 
 
 <br></br>
 
 ----------
-## 2. 기획 의도 및 배경
+## :baseball: 2. 기획 의도 및 배경
 * 야구는 기록의 스포츠라는 별명이 붙을 정도로 많은 개인별/팀별 데이터를 보유하고 있음. (<a href="https://dbr.donga.com/article/view/1203/article_no/9397/ac/magazine" target="_blank">Link</a>)
 * 야구의 제반 데이터 분석은 다양한 분야에서 폭넓은 관심을 끌고 있음.
 * KBO 우승자 예측은 이러한 각계의 요구를 충족시키는 현실적인 방안으로 평가될 것.
