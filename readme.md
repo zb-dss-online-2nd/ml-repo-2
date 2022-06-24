@@ -125,7 +125,8 @@
 #### 2) Decision Tree
 ##### ① Test_size 및 best max_depth
 <p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174306840-3c45e830-1efc-42ef-8f04-6a622172d38d.png"></p>
-<p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174306985-1c7e7d1e-26fe-46df-a3ce-6240fb9ef3dc.png"></p>
+<p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/104750108/175449371-c89aaacd-2bbc-4183-8e2b-ccecea807ea9.png">
+</p>
 
 * Decision Tree의 Test Size는 0.2와 0.3을 비교하여 
   0.3인 경우에 Train, Test Accuracy가 모두 높게 나와 0.3을 채택했고,
@@ -133,7 +134,7 @@
   random_state가 13인 경우에 최적의 max_depth는 7, Test size는 0.3인 것을 확인 할 수 있었다.
 
 ##### ② Confusion Matrix
-<p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174310026-1e33fe59-592b-482e-a0cb-83c67543ab14.png"></p>
+<p align="center"><img width="749" alt="image" src="https://user-images.githubusercontent.com/104750108/175449559-06082552-4a34-482f-b0c3-2911a03b9fa0.png"></p>
 
 * 우리가 조사한 데이터의 특징상 grade를 총 4개로 나누었고 각 등급의 비율이 편향되는 것을 확인할 수 없어서 
   Confusion Matrix를 통한 accuracy, precision, recall, f1_score, auc를 알아보고 싶었다.
