@@ -69,16 +69,17 @@
 * 승률별로 등급을 나누어 높은 Grade를 부여받는 팀이 우승할 수 있는 확률이 높은팀으로 선정
 * 이전 데이터(1983-2021)의 우승팀의 승률을 확인 해봤을 때 0.508-0.706의 범위로 고르게 분포가 되어있었고, 승률이 높은팀이 우승을 한 확률이 높게 나타났으나, 반드시 승률이 높다고해서 우승을 한 팀이 되지 않았음. 그래서 이 데이터의 정확도를 높이기 위한 방법으로 총 승률을 4단계로 나누고, Grade 기준으로 봤을 때 해당 팀이 우승할 확률이 있는지 알기 위해 해당 라벨을 선정
 
-### (4) Corrleaion and heatmap
-<p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174302978-ac76e701-37c7-487f-a671-3a54c93d2f61.png"></p>
+### (4) Corrleation and heatmap
+<img width="687" alt="image" src="https://user-images.githubusercontent.com/104750108/175441478-4e89c00d-8d57-4934-a052-3ded79fd4812.png">
 
 * 컬럼간의 상관관계를 통해 서로 얼마나 연관도가 있는지 파악하기 위해서 해당 조건을 확인함
 * grade와 양의 상관관계를 가지는 항목은 pov(승률), obp(출루율), slg(장타율), ba(타율)로 나타남.
 
 ### (5) Pairplot
-<p align="center"><img width="1130" alt="image" src="https://user-images.githubusercontent.com/104750108/174303303-c5d1ab8b-f096-432c-a646-d634325b628b.png"></p>
+<img width="1152" alt="pairplot" src="https://user-images.githubusercontent.com/104750108/175445945-47d900d1-9a86-444f-91d6-5bfdebcf74ef.png">
 
 * 특정 컬럼의 경우 (ex) team, year, month)의 경우에는 연관도가 다른 컬럼에 비해 상대적으로 적은편이다.
+* 유의미한 상관관계가 있는 컬럼들(pov, obp, slg, ba, era, whip)만 표시
 
 ### (6) Boxplot
 <p align="center"><img width="794" alt="image" src="https://user-images.githubusercontent.com/104750108/174303873-d6c3315e-c214-4381-9554-94059a5341de.png"></p>
@@ -164,9 +165,9 @@
 ----------
 ## :exclamation: 6. 결론 및 한계, 보완 방법
 ### (1) 결론
+- 다양한 분석기법을 사용했을 때 RandomForest 기법이 가장 적합한 모델인 것을 확인할 수 있었음.
 - 롯데, 한화를 제외한 8개 구단이 포스트 시즌 진출 가능할 것으로 예측됨.
-- 아직 시즌 중이므로 정확한 1위 예측은 힘들 것으로 보임.
-- 또한 grade의 구간 설정 근거가 다소 불명확하다는 한계가 있다.
+- 데이터 분석 및 현재 진행상황을 고려했을 때 2022년 우승팀은 SSG로 예상됨.
 ### (2) 한계 및 보안 방법
 - 데이터 부족의 문제는 KBO 이외의 리그에서 정보를 끌어오는 것으로 보완이 가능함.
 - 상대 승률, 포스트 시즌 대진표 등 중요 변수 고려하지않음.
