@@ -76,13 +76,13 @@
 * 이전 데이터(1983-2021)의 우승팀의 승률을 확인 해봤을 때 0.508-0.706의 범위로 고르게 분포가 되어있었고, 승률이 높은팀이 우승을 한 확률이 높게 나타났으나, 반드시 승률이 높다고해서 우승을 한 팀이 되지 않았음. 그래서 이 데이터의 정확도를 높이기 위한 방법으로 총 승률을 4단계로 나누고, Grade 기준으로 봤을 때 해당 팀이 우승할 확률이 있는지 알기 위해 해당 라벨을 선정
 
 ### (2) Corrleation and heatmap
-<img width="687" alt="image" src="https://user-images.githubusercontent.com/104750108/175441478-4e89c00d-8d57-4934-a052-3ded79fd4812.png">
+<p align="center"><img width="687" alt="image" src="https://user-images.githubusercontent.com/104750108/175441478-4e89c00d-8d57-4934-a052-3ded79fd4812.png"></p>
 
 * 컬럼간의 상관관계를 통해 서로 얼마나 연관도가 있는지 파악하기 위해서 해당 조건을 확인함
 * grade와 양의 상관관계를 가지는 항목은 pov(승률), obp(출루율), slg(장타율), ba(타율)로 나타남.
 
 ### (3) Pairplot
-<img width="1500" alt="pairplot" src="https://user-images.githubusercontent.com/104750108/175445945-47d900d1-9a86-444f-91d6-5bfdebcf74ef.png">
+<p align="center"><img width="1152" alt="pairplot" src="https://user-images.githubusercontent.com/104750108/175445945-47d900d1-9a86-444f-91d6-5bfdebcf74ef.png"></p>
 
 * 특정 컬럼의 경우 (ex) team, year, month)의 경우에는 연관도가 다른 컬럼에 비해 상대적으로 적은편이다.
 * 유의미한 상관관계가 있는 컬럼들(pov, obp, slg, ba, era, whip)만 표시
