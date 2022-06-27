@@ -4,10 +4,10 @@
 # 📑 목차
 * [1. 프로젝트 목표](#-1-프로젝트-목표)
 * [2. 기획 의도 및 배경](#-2-기획-의도-및-배경)
-* [3. 변수 설정 및 데이터 수집](#-3-변수-설정-및-데이터-수집)
+* [3. 데이터 소개](#-3-데이터-소개)
 * [4. EDA](#-4-EDA)
 * [5. 모델 선정 및 분석 기법](#-5-모델-선정-및-분석-기법)
-* [6. 결론 및 한계, 보완 방법](#-6-결론-및-한계,-보완-방법)
+* [6. 결론 및 한계, 보완 방법](#-6-결론-및-한계-보완-방법)
 * [7. 참고 자료](#-7-참고-자료)
 
 <br></br>
@@ -65,7 +65,7 @@
 
 
 ----------
-##  :ledger: 4. EDA
+## 📒 4. EDA
 
 ### (1) Grade
 <p align="center"><img width="981" alt="image" src="https://user-images.githubusercontent.com/104750108/174301365-8c8eb009-9060-41d5-9412-6cf9c629abb0.png"></p>
@@ -101,7 +101,7 @@
 
 
 ----------
-## :chart_with_downwards_trend: 5. 모델 선정 및 분석 기법
+## 📉 5. 모델 선정 및 분석 기법
 ### (1) 모델 선정 기준
 ![image](https://user-images.githubusercontent.com/104780664/174300732-7c1ba5d0-1d35-4857-975d-e0a02b6f9f0d.png)
 
@@ -127,7 +127,7 @@
  
 
 #### 2) Decision Tree
-##### ① Test_size 및 best max_depth
+#### ① Test_size 및 best max_depth
 <p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174306840-3c45e830-1efc-42ef-8f04-6a622172d38d.png"></p>
 <p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/104750108/175449371-c89aaacd-2bbc-4183-8e2b-ccecea807ea9.png">
 </p>
@@ -137,7 +137,7 @@
   추가적으로 Best Max Depth를 찾기 위해 GridSearchCV를 사용하여 1~15까지의 과정을 실행한 결과
   random_state가 13인 경우에 최적의 max_depth는 7, Test size는 0.3인 것을 확인 할 수 있었다.
 
-##### ② Confusion Matrix
+#### ② Confusion Matrix
 <p align="center"><img width="749" alt="image" src="https://user-images.githubusercontent.com/104750108/175449559-06082552-4a34-482f-b0c3-2911a03b9fa0.png"></p>
 
 * 우리가 조사한 데이터의 특징상 grade를 총 4개로 나누었고 각 등급의 비율이 편향되는 것을 확인할 수 없어서 
@@ -145,14 +145,14 @@
   Confusion Maxtrix 분석기법은 average 옵션을 두개로 나누어 진행했다.(micro - '전체평균', macro - '라벨 별 각 합의 평균')
   두 옵션을 비교해봤을 때 유의미한 수치의 차이는 발견되지 않았다.
 
-##### ③ Classification Report
+#### ③ Classification Report
 <p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174307361-fc71e952-79ae-404d-a5df-d8c3030401a0.png"></p>
 
 * Decision Tree의 분류 리포트를 분석해봤을 때
   Grade 비율이 얼마인지를 확인해보고
   Test Data에 대한 비율을 확인해봤는데 거의 비슷한 비율인 것을 확인할 수 있었다.
 
-##### ④ 실제 값으로 Test 한 예측 값 및 예측 비율 (2022년 6월 13일 기준 data)
+#### ④ 실제 값으로 Test 한 예측 값 및 예측 비율 (2022년 6월 13일 기준 data)
 <p align="center"><img src="https://user-images.githubusercontent.com/104780664/174307408-c3a90018-2e52-4f84-85a6-947d97928f03.png"></p>
 
 * 실제 값으로 Test한 예측값 및 예측비율을 구해보니
@@ -168,7 +168,7 @@
 
 
 ----------
-## :exclamation: 6. 결론 및 한계, 보완 방법
+## ❗ 6. 결론 및 한계, 보완 방법
 ### (1) 결론
 - 다양한 분석기법을 사용했을 때 RandomForest 기법이 가장 적합한 모델인 것을 확인할 수 있었음.
 - 롯데, 한화를 제외한 8개 구단이 포스트 시즌 진출 가능할 것으로 예측됨.
@@ -185,7 +185,7 @@
 
 
 ----------
-## :pushpin: 7. 참고 자료
+## 📌 7. 참고 자료
 - KBO 공식 사이트의 기록실 (<a href="https://www.koreabaseball.com/Record/Player/HitterBasic/Basic1.aspx" target="_blank">Link</a>)
 - 한국 프로야구 전문 사이트 (<a href="http://www.statiz.co.kr/community_list.php" target="_blank">Link</a>)
 
