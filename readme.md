@@ -82,7 +82,7 @@
 * grade와 양의 상관관계를 가지는 항목은 pov(승률), obp(출루율), slg(장타율), ba(타율)로 나타남.
 
 ### (3) Pairplot
-<img width="1152" alt="pairplot" src="https://user-images.githubusercontent.com/104750108/175445945-47d900d1-9a86-444f-91d6-5bfdebcf74ef.png">
+<img width="1500" alt="pairplot" src="https://user-images.githubusercontent.com/104750108/175445945-47d900d1-9a86-444f-91d6-5bfdebcf74ef.png">
 
 * 특정 컬럼의 경우 (ex) team, year, month)의 경우에는 연관도가 다른 컬럼에 비해 상대적으로 적은편이다.
 * 유의미한 상관관계가 있는 컬럼들(pov, obp, slg, ba, era, whip)만 표시
