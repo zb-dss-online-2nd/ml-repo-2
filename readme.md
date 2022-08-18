@@ -114,21 +114,9 @@
  * Boxplot 기준으로 평균자책점(ERA)은 다른 값 대비 차이가 큼
  * 총 6개의 모델(각각의 Grade 범위 상이)분석을 통해 최적의 모델을 선정
 
-
-
-### (2) 사용한 분석기법
-#### 1) OLS Regression
- <p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174306084-ae600435-396c-4f96-945c-1d1fc93fc1fe.png"></p>
- 
- <p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174306126-6e03bbd8-b360-4c59-b3ec-aa84b4baff82.png"></p>
- 
-* OLS 선형 회귀분석을 이용해서 1차적으로 분석을 해봤는데
-  RMSE가 0.11인 경우에는 모델로 사용하기에는 적합했으나
-  추가적으로 실제값과 예측값을 비교해봤을 때 유의미한 값의 변화를
-  찾지 못하여 회귀모델이 아닌 분류모델로 변경하여 진행했다.
  
 
-#### 2) Decision Tree
+#### 1) Decision Tree
 #### ① Test_size 및 best max_depth
 <p align="center"><img alt="image" src="https://user-images.githubusercontent.com/104780664/174306840-3c45e830-1efc-42ef-8f04-6a622172d38d.png"></p>
 <p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/104750108/175449371-c89aaacd-2bbc-4183-8e2b-ccecea807ea9.png">
@@ -161,7 +149,7 @@
   롯데와 한화를 제외한 팀이 모두 포스트시즌에 진출할 가능성이 있는 팀이었으나
   예측비율은 모델에 한계점이 있어 신뢰도 높은 예측비율을 나타내지는 못했다.
 
-#### 3) 그 외 (Logistic Regression / Random Forest / LightGBM)
+#### 2) 그 외 (Logistic Regression / Random Forest / LightGBM)
 <p align="center"><img width="70%" height="70%" alt="image" src="https://user-images.githubusercontent.com/104780664/174307555-2eb022c1-7e51-49ea-b7e0-ad3749650787.png"></p>
 
 * 그 외에 추가적으로 다른 Model을 돌린결과 RandomForest가 가장 모델로서 적합한 모델인 것을 확인할 수 있었다.
